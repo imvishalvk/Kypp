@@ -1,0 +1,205 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    list-style-type: none;
+}
+.linkdec{
+    text-decoration: none;
+    color: black;
+}
+.linkdec:hover{
+    text-decoration: underline;
+}
+.list{
+    padding: 0 20px 0 20px ;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* colections */
+
+.imagg:hover {
+  transform: scale(1.05);
+transition: transform 0.3s ease-in-out; 
+}
+    .prsec {
+        margin-bottom: 2vh;
+    }
+    .products {
+        overflow: auto;
+        white-space: nowrap;
+        overflow-y: hidden; /* Hide vertical scrollbars */  
+        -ms-overflow-style: none; /* Internet Explorer and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+    .products::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Opera */
+    }
+.imagg{
+    margin: 2vh 2vh;
+    height: 50vh;
+}
+  .typ{
+    margin-left: 20px;
+  }
+  .typ:hover {
+    transform: scale(1.05) ;
+    transition: transform 0.3s ease-in-out;
+  }
+.imagg2{
+    margin: 2vh;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+;
+}
+.flex{
+    display: flex;
+}
+.text{
+    justify-content: center;
+    display: flex;
+   
+}
+@media screen and (max-width: 749px){
+    .imagg{
+    margin: 1vh 1vh;
+    height: 30vh;
+}
+}
+
+/* text with  image */
+.imgtext2{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 80vh;
+    align-items: center;
+    margin-top: 2px;
+
+}
+.imgtext{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 79vh;
+    align-items: center;
+}
+.txtimg{
+    height: 80vh;
+    margin: 0 30px;
+    padding: 0 50px;
+}
+.textins{
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+
+/* footer */
+.footer-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: black;
+    color: white;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer-section h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+}
+.social-icons a:hover {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        margin: 20px 0;
+    }
+}
+/* brands */
+
+        .imagg:hover {
+          
+          transform: scale(1.1); 
+        transition: transform 0.3s ease-in-out; 
+        }
+                .prsec {
+                    margin-bottom: 2vh;
+                }
+                .products {
+                    overflow: auto;
+                    white-space: nowrap;
+                    overflow-y: hidden; /* Hide vertical scrollbars */  
+                    -ms-overflow-style: none; /* Internet Explorer and Edge */
+                    scrollbar-width: none; /* Firefox */
+                }
+                .products::-webkit-scrollbar {
+                    display: none; /* Chrome, Safari, and Opera */
+                }
+                .imagg {
+                    margin: 2vh 2vh;
+                    height: 30vh;
+                    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+                }
+                .flex {
+                    display: flex;
+                }
+                .text {
+                    justify-content: center;
+                    display: flex;
+                }
+                @media screen and (max-width: 749px) {
+                    .imagg {
+                        margin: 1vh 1vh;
+                        height: 10vh;
+                    }
+                }
+            
