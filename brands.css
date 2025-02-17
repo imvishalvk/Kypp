@@ -1,0 +1,54 @@
+
+                .head{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 3rem;
+                }
+                    .brand-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 20px; /* Space between images */
+                        padding: 20px;
+                    }
+                
+                    .brand-container a {
+                        display: flex;
+                        justify-content: center;
+                        width: calc(33.33% - 20px); /* 3 images per row on larger screens */
+                    }
+                
+                    .brand-container img {
+                        height: 250px;
+                        width: 100%; /* Make images responsive */
+                        object-fit: contain; /* Maintain aspect ratio */
+                    }
+                
+                    /* Responsive adjustments */
+                    @media (max-width: 768px) {
+                        .brand-container a {
+                            width: calc(50% - 20px); /* 2 images per row */
+                        }
+                        .brand-container img {
+                            height: 200px; /* Adjust image height */
+                        }
+                    }
+                
+                    @media (max-width: 480px) {
+                        .brand-container a {
+                            width: calc(50% - 10px); /* 2 images per row on mobile */
+                        }
+                        .brand-container img {
+                            height: 180px; /* Adjust image height for smaller screens */
+                        }
+                    }
+                    hr {
+                        border:none;
+                        height: 20px;
+                           width: 90%;
+                          height: 50px;
+                          margin-top: 0;
+                          border-bottom: 1px solid #1f1209;
+                          box-shadow: 0 20px 20px -20px #333;
+                        margin: -50px auto 10px; 
+                      }
