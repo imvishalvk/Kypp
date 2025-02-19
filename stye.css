@@ -224,4 +224,8 @@ transition: transform 0.3s ease-in-out;
                     display: inline-block;
                     height: 65vh;
                 }
+                .rfmeterr{
+                    display: flex;
+                    justify-content: center;
+                }
                 }
