@@ -78,12 +78,7 @@ transition: transform 0.3s ease-in-out;
     display: flex;
    
 }
-@media screen and (max-width: 749px){
-    .imagg{
-    margin: 1vh 1vh;
-    height: 30vh;
-}
-}
+
 
 /* text with  image */
 .imgtext2{
@@ -202,4 +197,30 @@ transition: transform 0.3s ease-in-out;
                         height: 10vh;
                     }
                 }
-            
+        
+                
+
+        @media screen and (max-width: 749px){
+                    .imagg{
+                    margin: 1vh 1vh;
+                    height: 30vh;
+                }
+                .banner{
+                    height: 250px;
+                }
+                .txtimg{
+                    height: 41vh;
+                    margin: 0;
+                }
+                .imgtext2{
+                    height: 65vh;
+                    display: inline-block;
+                }
+                .imagg2{
+                    height: 25vh;
+                }
+                .imgtext{
+                    display: inline-block;
+                    height: 65vh;
+                }
+                }
