@@ -211,6 +211,7 @@ transition: transform 0.3s ease-in-out;
                 .txtimg{
                     height: 41vh;
                     margin: 0;
+                    padding: 0;
                 }
                 .imgtext2{
                     height: 65vh;
