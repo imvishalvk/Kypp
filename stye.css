@@ -41,6 +41,9 @@
     display: flex;
     justify-content: center;
 }
+.banner1{
+    height: 600px;
+}
 .mobilebanner{
     height: 300px;
     display: flex;
@@ -224,7 +227,7 @@ transition: transform 0.3s ease-in-out;
                     margin: 1vh 1vh;
                     height: 30vh;
                 }
-                .banner{
+                .banner1{
                     display: none;
                 }
                 .txtimg{
