@@ -9,14 +9,14 @@
         align-items: center;
     }
     .logo{
-        height: 25px;
-    }
-    
+        height: 30px;
+    } 
 }
+
 .logo{
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 40px;
 }
 .menu{
     display: flex;
@@ -132,7 +132,6 @@ transition: transform 0.3s ease-in-out;
 .textins{
     margin-left: 20px;
     padding: 20px;
-    
 }
 
 /* footer */
