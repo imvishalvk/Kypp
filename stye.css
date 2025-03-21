@@ -13,7 +13,7 @@
 .logo{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    height: 20px;
 }
 .menu{
     display: flex;
