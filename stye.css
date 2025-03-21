@@ -41,6 +41,16 @@
     display: flex;
     justify-content: center;
 }
+.mobilebanner{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.mobilebanner1{    
+    height: 300px;
+}
 
 
 /* colections */
@@ -215,7 +225,7 @@ transition: transform 0.3s ease-in-out;
                     height: 30vh;
                 }
                 .banner{
-                    height: 200px;
+                    display: none;
                 }
                 .txtimg{
                     height: 41vh;
@@ -238,3 +248,9 @@ transition: transform 0.3s ease-in-out;
                     justify-content: center;
                 }
                 }
+@media screen and (min-width: 750 ) {
+    .mobilebanner{
+        display: none;
+    }
+    
+}
